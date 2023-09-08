@@ -1,5 +1,10 @@
 package com.woro2;
 
+import com.ssg.autostart.AutostartPackage;
+import com.facebook.react.ReactPackage;
+import java.util.List;
+import java.util.Arrays;
+
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint;
@@ -31,5 +36,11 @@ public class MainActivity extends ReactActivity {
         // If you opted-in for the New Architecture, we enable Concurrent React (i.e. React 18).
         DefaultNewArchitectureEntryPoint.getConcurrentReactEnabled() // concurrentRootEnabled
         );
+  }
+
+  protected List<ReactPackage> getPackages() {
+    return Arrays.<ReactPackage>asList(
+      new AutostartPackage()
+    );
   }
 }

@@ -1988,11 +1988,6 @@
     "@typescript-eslint/types" "5.62.0"
     eslint-visitor-keys "^3.3.0"
 
-AsyncStorage@^0.1.5:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/AsyncStorage/-/AsyncStorage-0.1.5.tgz#06ddfad088dd487e703208d3c86071115549e803"
-  integrity sha512-Z5dRGsFXvTUi3TUjGJJlMnU/knY8/qKCy6JGHxgddfiaJhOqgZatCDkALJUEN6ZamJMQ48cePgTdjADZ9At+Uw==
-
 abort-controller@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/abort-controller/-/abort-controller-3.0.0.tgz#eaf54d53b62bae4138e809ca225c8439a6efb392"

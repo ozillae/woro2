@@ -10,7 +10,6 @@
     "test": "jest"
   },
   "dependencies": {
-    "AsyncStorage": "^0.1.5",
     "react": "18.2.0",
     "react-native": "0.71.8",
     "react-native-autostart": "^1.0.7",
